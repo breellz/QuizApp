@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    background-image: url("https://res.cloudinary.com/breellz/image/upload/v1575353292/olav-ahrens-rotne-jvBXiynINGE-unsplash_bg0wwi.jpg");
+    background-repeat: no-repeat;
+     /* Full height */
+    height: 100vh;
+  /* Center and scale the image nicely */
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 3px white;
+    border-radius: 15px;
+    padding:100px;
+    background-color: rgba(247, 245, 245, 0.899);
+}
+div.flex-center h1{
+    font-family: 'Pacifico', cursive;
+    color:#56a5eb
+}
+.btn{
+    text-decoration: none;
+    border: 3px solid #56a5eb;
+    padding: 3px;
+    background-color: rgba(247, 245, 245, 0.819);
+    margin: 10px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.7s;
+    font-family: 'Lobster', cursive; 
+    color: #56a5eb;
+    font-weight: bold;
+}
+.btn:hover{
+   box-shadow: 5px 5px #56a5eb;
+    padding: 7px;
+   
+}
