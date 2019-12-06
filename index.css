@@ -1,5 +1,4 @@
 :root {
-  background-color:rgb(212, 60, 60) ;
   background-image:url("./1.jpg");
   font-size: 62.5%;
   background-repeat: no-repeat;
@@ -130,4 +129,7 @@ input {
 
 input::placeholder {
   color: #aaa;
+}
+ul{
+  color:white;
 }
