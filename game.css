@@ -4,6 +4,7 @@
   width: 100%;
   font-size: 1.8rem;
   border: 0.1rem solid rgb(86, 165, 235, 0.25);
+  border-radius:15px;
   background-color: white;
 }
 
@@ -17,6 +18,7 @@
 .choice-prefix {
   padding: 1.5rem 2.5rem;
   background-color: #56a5eb;
+  border-radius:inherit;
   color: white;
 }
 
@@ -30,7 +32,7 @@
 }
 
 .incorrect {
-  background-color: #dc3545;
+  background-color: #dc354662;
 }
 
 /* HUD */
@@ -41,6 +43,7 @@
 }
 
 .hud-prefix {
+  color:white;
   text-align: center;
   font-size: 2rem;
 }
